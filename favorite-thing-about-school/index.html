@@ -30,7 +30,28 @@
             height:300px;
             float:right
         }
+        #square{
+            width:300px;
+            height:300px;
+            background-color: blueviolet;
+            margin:auto;
+            left:1000px;
+            position: relative;
+            animation: rotate 3s infinite alternate ease-in-out, slide 1s forwards ease-in-out;
+            rotate: -45deg;
+        }
+
+        @keyframes rotate{
+            to{
+                rotate: 45deg;
+            }
+        }
         
+        @keyframes slide{
+            to{
+                left: 0;
+            }
+        }
     </style>
     
 </head>
@@ -69,6 +90,10 @@ in Kirkiland WA
         <li><a href="https://www.epschedule.com/" target="_blank">EP Schedule</a></li>
     </ol>
     <img src="images/eps.jpg" alt="this is an imige of the EPS campus">
+
+    <div id="square">
+
+    </div>
 
     
 </body>
