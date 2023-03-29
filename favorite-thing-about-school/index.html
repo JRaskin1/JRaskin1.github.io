@@ -53,6 +53,32 @@
                 left: 0;
             }
         }
+        #animation_p{
+            animation: move_left_to_right 5s linear
+        }
+        @keyframes move_left_to_right{ 0% {
+            transform: translatex(-100%) 
+        }
+       
+        100%{ 
+            transform: translatex(100%)
+        }
+
+
+        }
+        #moving_img{
+            width: 50%; 
+            animation: move_then_fade 5s linear forwards;
+        }
+        @keyframes move_then_fade{
+            0%{
+                transform: translateX(-100%);
+            }
+            100%{
+                transfrom: translateX(100%);
+                opacity:0; 
+            }
+        }
     </style>
     
 </head>
@@ -101,6 +127,7 @@ in Kirkiland WA
 
     </div>
 
-    
+    <p id="animation_p">this will move left to right</p>
+    <img src="images/logo.jpg" alt="EPS image" id="moving_img">
 </body>
 </html>
