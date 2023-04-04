@@ -28,3 +28,18 @@ ul.nav a:hover{
 .active{
     background-color: goldenrod;
 }
+h1{
+font-family: "acier-bat-gris", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+body{
+    font-family: "acier-bat-noir", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+em{
+    font-family: "acier-bat-outline", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
