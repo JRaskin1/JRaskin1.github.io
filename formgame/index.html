@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz and Two Truths and a Lie</title>
+</head>
+<body>
+    <h1>Welcome to my Quiz And Two truths and a Lie Game!</h1>
+    <h2>Who are you</h2>
+    <form action="" id="name-form">
+    <label for="fname">First Name:</label><br>
+    <input type="text" name="fname" id="fname"><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text" name="lname" id="lname"><br>
+    <label for="age">Age:</label><br>
+    <input type="text" name="age" id="age">
+    <br>
+</form>
+<br>
+<input type="button" value="SUBMIT" onclick="greet()">
+<p id="greet">Welcome!</p>
+<hr>
+<h2>Lets play trivia!</h2>
+<p>what is the only food that cannot go bad?</p>
+<p id="trivia-answer"></p>
+<form action="">
+<input type="radio" name="trivia1" id="chocolate">
+<label for="chocolate">Dark Chocolate</label><br>
+<input type="radio" name="trivia1" id="tuna">
+<label for="tuna">Canned Tuna</label><br>
+<input type="radio" name="trivia1" id="honey">
+<label for="honey">Honey</label><br>
+</form>
+<br>
+<input type="button" value="SUBMIT" onclick="trivia1()">
+
+<hr>
+<h2>Two Truths and a Lie!</h2>
+<p>Can you guess which one is a lie ?</p>
+<p id="trivia-answer2"></p>
+<form action="">
+<input type="radio" name="trivia2" id="samerica">
+<label for="samerica">I have never been to south America.</label><br>
+<input type="radio" name="trivia2" id="london">
+<label for="london">I have been to London.</label><br>
+<input type="radio" name="trivia2" id="paris">
+<label for="paris">I have been to Paris.</label><br>
+</form>
+<br>
+<input type="button" value="SUBMIT" onclick="trivia2()">
+<script src="js/js/game.js"></script>
+</body>
+</html>
