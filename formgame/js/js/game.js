@@ -1,7 +1,7 @@
 let fname="";
 function greet() {
     let greetParagraph = document.getElementById("greet");
-    fname = document.getElementById("fname").ariaValueMax;
+    fname = document.getElementById("fname").value;
     let lname = document.getElementById("lname").value;
     let age = document.getElementById("age").value;
     if (fname === "" || lname === "") {
