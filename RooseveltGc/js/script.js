@@ -1,8 +1,6 @@
 function pFuna(){
-    var p = document.getElementById('p-funa');
-    p.innerHTML = '';
-    p.style.fontSize = '20px';
-    p.style.color = 'whitesmoke';
+    var p = document.getElementById('grid1');
+   p.style.display="block";
 }
 let fname="";
 function greet() {
